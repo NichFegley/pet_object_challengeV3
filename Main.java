@@ -14,7 +14,14 @@
 
 class Main {
   public static void main(String[] args) {
-   // Place your code here //
-   // Nich Fegley
+   // zero argument construct
+   Pet pet1= new Pet();
+
+   // three 6 arguement construct
+   Pet pet2 = new Pet("cat","Bain",11,12.5,true,false);
+
+   System.out.println(pet1);
+   System.out.println(pet2);
+
   }
 }
